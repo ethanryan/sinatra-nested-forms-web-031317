@@ -1,1 +1,43 @@
-<h1>Make your form here</h1>
+<h1>Rrrr me matey! Create a new pirate here:</h1>
+
+<form method="post" action="/pirates">
+  <h2>Pirate Info</h2>
+
+  Pirate Name: <input type="text" name="pirate[name]"></text>
+  <br>
+  Pirate Height: <input type="text" name="pirate[height]"></text>
+  <br>
+  Pirate Weight: <input type="text" name="pirate[weight]"></text>
+  <br><br>
+  <br>
+  <h2>Ship 1 Info</h2>
+  <br>
+  Ship Name: <input id="ship_name_1" type="text" name="pirate[ships][][name]"></text>
+  <br>
+  Ship Type: <input id="ship_type_1" type="text" name="pirate[ships][][type]"></text>
+  <br>
+  Ship Booty: <input id="ship_booty_1" type="text" name="pirate[ships][][booty]"></text>
+  <br><br>
+  <h2>Ship 2 Info</h2>
+  <br>
+  Ship Name: <input id="ship_name_2" type="text" name="pirate[ships][][name]"></text>
+  <br>
+  Ship Type: <input id="ship_type_2" type="text" name="pirate[ships][][type]"></text>
+  <br>
+  Ship Booty: <input id="ship_booty_2" type="text" name="pirate[ships][][booty]"></text>
+  <br><br>
+  <!-- Course Topic: <input type="text" name="student[courses][][topic]"></text>
+  Course Name: <input type="text" name="student[courses][][name]"></text>
+  Course Topic: <input type="text" name="student[courses][][topic]"></text> -->
+  <input type="submit" value="Submit" id="submit">
+</form>
+
+<!-- <form action="/student" method="post">
+  Student Name: <input type="text" name="student[name]">
+  Student Grade: <input type="text" name="student[grade]">
+  Course Name: <input type="text" name="student[courses][][name]">
+  Course Topic: <input type="text" name="student[courses][][topic]">
+  Course Name: <input type="text" name="student[courses][][name]">
+  Course Topic: <input type="text" name="student[courses][][topic]">
+  <input type="submit">
+</form> -->
